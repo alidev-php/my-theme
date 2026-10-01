@@ -1,0 +1,235 @@
+/*
+Theme Name: AliTheme
+Theme URI: http://localhost/dashboard/wordpress/
+Author: Ali Reza
+Author URI: http://localhost/dashboard/wordpress/
+Description: A modern, responsive WordPress theme with RTL support, custom post meta, social sharing, and beautiful design.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: alitheme
+Tags: blog, custom-menu, featured-images, rtl-language-support, translation-ready
+*/
+body{
+    font-family:Tahoma, sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: right;
+}
+main{
+    max-width: 900px;
+    margin: 50px;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 40px 10px rgba(0,0,0,0.1);
+}
+
+h1
+{
+color: #2c3e50;
+border-bottom: 3px solid #3498db;
+padding-bottom: 10px;
+
+}
+p
+{
+color: #555;
+line-height: 1.5;
+}
+
+/* استایل پست‌ها */
+article {
+    background: #fafafa;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-right: 4px solid #3498db;
+    transition: all 0.3s ease;
+}
+
+article:hover {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    transform: translateY(-3px);
+}
+
+article h2 {
+    margin-top: 0;
+    font-size: 1.6em;
+}
+
+article h2 a {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+article h2 a:hover {
+    color: #3498db;
+}
+
+.post-meta {
+    color: #888;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #ddd;
+}
+
+.post-content {
+    line-height: 1.9;
+    color: #444;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 20px;
+    background: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.95em;
+}
+
+.read-more:hover {
+    background: #2980b9;
+}
+
+hr {
+    display: none;
+}
+
+
+/* ===== صفحه پست تکی ===== */
+.single-post {
+    background: white;
+    border-radius: 10px;
+    padding: 40px;
+    margin-bottom: 30px;
+    border-right: 5px solid #3498db;
+}
+
+.single-post h1 {
+    color: #2c3e50;
+    font-size: 2.2em;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.single-post .post-meta {
+    color: #888;
+    font-size: 0.95em;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #ddd;
+}
+
+.single-post .post-content {
+    font-size: 1.1em;
+    line-height: 2.2;
+    color: #333;
+}
+
+.single-post .post-content p {
+    margin-bottom: 20px;
+}
+
+.post-tags {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    color: #3498db;
+}
+
+.post-tags a {
+    color: #3498db;
+    text-decoration: none;
+    background: #ecf0f1;
+    padding: 4px 12px;
+    border-radius: 15px;
+    margin-right: 5px;
+    font-size: 0.9em;
+}
+
+.post-tags a:hover {
+    background: #3498db;
+    color: white;
+}
+
+.back-home {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 30px;
+    background: #2c3e50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.back-home:hover {
+    background: #1a252f;
+}
+
+.comments-section {
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 30px;
+}
+.post-meta {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #ddd;
+}
+
+.meta-item {
+    background: #ecf0f1;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    color: #555;
+}
+/* استایل صفحه برگه */
+.single-page {
+    background: white;
+    border-radius: 10px;
+    padding: 40px;
+    margin-bottom: 30px;
+    border-right: 5px solid #27ae60;
+}
+
+.single-page h1 {
+    color: #2c3e50;
+    font-size: 2.2em;
+    border-bottom: 3px solid #27ae60;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.single-page .page-content {
+    font-size: 1.1em;
+    line-height: 2.2;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
